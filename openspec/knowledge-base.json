@@ -1,0 +1,445 @@
+{
+  "version": "1.0",
+  "data": [
+    {
+      "id": "fu-character",
+      "title": "贴福字",
+      "description": "贴福字是中国春节的传统习俗之一。福字代表着幸福、福气和好运。人们通常会在春节前将福字贴在门上、墙上或窗户上，以祈求新的一年里福气满满。有趣的是，有些地方会将福字倒着贴，寓意着'福到了'（因为'倒'和'到'谐音）。",
+      "keywords": ["福字", "贴福", "倒贴福", "福气", "好运"],
+      "scenarios": ["春节前贴福字", "倒贴福字寓意", "福字的位置选择"],
+      "related": ["spring-festival", "couplets", "door-gods"]
+    },
+    {
+      "id": "shou-sui",
+      "title": "守岁",
+      "description": "守岁是指在除夕夜熬夜迎接新年的到来。这一习俗起源于古代，传说中有一种叫做'年'的怪兽，每到除夕夜就会出来伤人。人们通过熬夜、放鞭炮等方式来驱赶'年'兽。现在，守岁更多的是家人团聚的时刻，大家一起吃年夜饭、看春晚、聊天，直到午夜钟声响起。",
+      "keywords": ["守岁", "除夕夜", "熬夜", "年兽", "春晚"],
+      "scenarios": ["除夕夜守岁", "守岁的起源", "守岁的活动"],
+      "related": ["spring-festival", "new-years-eve", "firecrackers"]
+    },
+    {
+      "id": "bai-nian",
+      "title": "拜年",
+      "description": "拜年是春节期间的重要习俗，人们通过拜年表达对亲朋好友的祝福。拜年的方式有很多种，包括上门拜年、电话拜年、短信拜年等。传统的上门拜年通常会带上礼物，如糖果、糕点等，同时说一些吉祥话，如'新年快乐'、'恭喜发财'等。",
+      "keywords": ["拜年", "春节", "祝福", "吉祥话", "礼物"],
+      "scenarios": ["上门拜年", "电话拜年", "拜年的礼仪"],
+      "related": ["spring-festival", "lucky-money", "reunion-dinner"]
+    },
+    {
+      "id": "lucky-money",
+      "title": "压岁钱",
+      "description": "压岁钱是春节期间长辈给晚辈的红包，里面装着现金。压岁钱的起源与驱邪有关，传说中压岁钱可以压住邪祟，保佑孩子平安健康。现在，压岁钱更多的是长辈对晚辈的关爱和祝福，金额也因地区和家庭经济状况而异。",
+      "keywords": ["压岁钱", "红包", "长辈", "晚辈", "祝福"],
+      "scenarios": ["给压岁钱", "收压岁钱", "压岁钱的用途"],
+      "related": ["spring-festival", "bai-nian", "red-packets"]
+    },
+    {
+      "id": "couplets",
+      "title": "春联",
+      "description": "春联是春节期间贴在门上的对联，通常由上联、下联和横批组成。春联的内容多为吉祥话，表达对新年的美好祝愿。春联的历史悠久，最早可以追溯到五代十国时期。现在，春联已经成为春节的重要象征之一，人们会在春节前购买或自己书写春联。",
+      "keywords": ["春联", "对联", "横批", "吉祥话", "春节"],
+      "scenarios": ["贴春联", "写春联", "春联的内容"],
+      "related": ["spring-festival", "fu-character", "door-gods"]
+    },
+    {
+      "id": "window-flowers",
+      "title": "窗花",
+      "description": "窗花是贴在窗户上的剪纸艺术品，通常在春节期间张贴。窗花的内容多为吉祥图案，如福字、花鸟、鱼虫等，寓意着对新年的美好祝愿。窗花的历史悠久，是中国传统民间艺术的重要组成部分。现在，虽然玻璃窗取代了传统的纸窗，但窗花仍然是春节的重要装饰品之一。",
+      "keywords": ["窗花", "剪纸", "窗户", "吉祥图案", "春节"],
+      "scenarios": ["贴窗花", "剪窗花", "窗花的图案"],
+      "related": ["spring-festival", "fu-character", "paper-cutting"]
+    },
+    {
+      "id": "dumplings",
+      "title": "饺子",
+      "description": "饺子是春节期间的传统美食，尤其在北方地区，除夕夜吃饺子是必不可少的习俗。饺子的形状像元宝，寓意着招财进宝。有些地方还会在饺子里包上硬币、糖果等，吃到这些特殊饺子的人会在新的一年里交好运。饺子的历史悠久，最早可以追溯到东汉时期。",
+      "keywords": ["饺子", "除夕夜", "元宝", "招财进宝", "好运"],
+      "scenarios": ["除夕夜吃饺子", "包饺子", "饺子里的惊喜"],
+      "related": ["spring-festival", "reunion-dinner", "new-years-eve"]
+    },
+    {
+      "id": "rice-cake",
+      "title": "年糕",
+      "description": "年糕是春节期间的传统美食，尤其在南方地区更为流行。年糕的主要原料是糯米，口感软糯，味道香甜。年糕的寓意是'年年高升'，表达了人们对新一年的美好期望。年糕的做法有很多种，如蒸、煮、炸等，可以根据个人口味进行调整。",
+      "keywords": ["年糕", "糯米", "年年高升", "春节", "美食"],
+      "scenarios": ["吃年糕", "做年糕", "年糕的种类"],
+      "related": ["spring-festival", "reunion-dinner", "traditional-food"]
+    },
+    {
+      "id": "temple-fair",
+      "title": "庙会",
+      "description": "庙会是春节期间的传统民俗活动，通常在寺庙或公园举行。庙会上有各种表演和摊位，如舞龙舞狮、杂技、戏曲、小吃等，吸引了大量游客。庙会的历史悠久，最早可以追溯到唐代。现在，庙会已经成为春节期间的重要娱乐活动之一，人们可以在庙会上感受到浓厚的节日氛围。",
+      "keywords": ["庙会", "春节", "舞龙舞狮", "小吃", "娱乐"],
+      "scenarios": ["逛庙会", "庙会的表演", "庙会的小吃"],
+      "related": ["spring-festival", "dragon-lion-dance", "traditional-activities"]
+    },
+    {
+      "id": "dragon-lion-dance",
+      "title": "舞龙舞狮",
+      "description": "舞龙舞狮是春节期间的传统表演活动，通常在庙会、街头等场所进行。舞龙象征着吉祥如意，舞狮则象征着驱邪避灾。舞龙舞狮的表演生动活泼，锣鼓喧天，营造出浓厚的节日氛围。这一习俗起源于古代，现在已经成为中国传统文化的重要组成部分，甚至在海外华人社区也很流行。",
+      "keywords": ["舞龙", "舞狮", "春节", "表演", "吉祥"],
+      "scenarios": ["春节舞龙舞狮", "舞龙舞狮的寓意", "舞龙舞狮的技巧"],
+      "related": ["spring-festival", "temple-fair", "firecrackers"]
+    },
+    {
+      "id": "firecrackers",
+      "title": "放鞭炮",
+      "description": "放鞭炮是春节期间的传统习俗，通常在除夕夜、大年初一等时间点燃放。鞭炮的声音响亮，可以驱赶邪祟，带来好运。这一习俗起源于古代，传说中'年'兽害怕响声，人们通过放鞭炮来驱赶它。现在，由于环保和安全的考虑，许多地方已经限制或禁止燃放鞭炮，转而使用电子鞭炮等替代品。",
+      "keywords": ["鞭炮", "放鞭炮", "除夕夜", "年兽", "环保"],
+      "scenarios": ["除夕夜放鞭炮", "放鞭炮的安全", "电子鞭炮"],
+      "related": ["spring-festival", "shou-sui", "new-years-eve"]
+    },
+    {
+      "id": "lantern-riddles",
+      "title": "灯谜",
+      "description": "灯谜是写在灯笼上的谜语，通常在元宵节期间猜射。猜灯谜是一种有趣的智力游戏，既能娱乐又能增长知识。灯谜的历史悠久，最早可以追溯到宋代。现在，灯谜已经成为元宵节的重要活动之一，许多地方会举办灯谜晚会，吸引大量参与者。",
+      "keywords": ["灯谜", "元宵节", "猜谜语", "灯笼", "智力游戏"],
+      "scenarios": ["猜灯谜", "写灯谜", "灯谜晚会"],
+      "related": ["lantern-festival", "lanterns", "traditional-activities"]
+    },
+    {
+      "id": "lantern-festival",
+      "title": "闹元宵",
+      "description": "闹元宵是指元宵节期间的各种庆祝活动，如赏灯、猜灯谜、吃元宵等。元宵节是春节后的第一个重要节日，也是一年中第一个月圆之夜，象征着团圆和美满。'闹'字体现了元宵节的热闹氛围，人们通过各种活动来庆祝这个节日。",
+      "keywords": ["元宵节", "闹元宵", "赏灯", "猜灯谜", "吃元宵"],
+      "scenarios": ["元宵节活动", "吃元宵", "赏灯"],
+      "related": ["spring-festival", "lanterns", "lantern-riddles"]
+    },
+    {
+      "id": "lanterns",
+      "title": "花灯",
+      "description": "花灯是元宵节期间的传统装饰品，通常由纸、布、竹子等材料制成，形状各异，色彩鲜艳。花灯的历史悠久，最早可以追溯到汉代。现在，花灯的制作工艺更加精湛，不仅有传统的宫灯、纱灯，还有各种现代造型的花灯。赏灯是元宵节的重要活动之一，人们可以在花灯中感受到浓厚的节日氛围。",
+      "keywords": ["花灯", "元宵节", "赏灯", "传统装饰", "工艺"],
+      "scenarios": ["赏花灯", "做花灯", "花灯的种类"],
+      "related": ["lantern-festival", "lantern-riddles", "traditional-activities"]
+    },
+    {
+      "id": "ancestor-worship",
+      "title": "祭祖",
+      "description": "祭祖是春节期间的传统习俗，人们通过祭祀祖先来表达对先人的敬意和怀念。祭祖的方式有很多种，如在家中设供桌、到墓地扫墓等。供桌上通常会摆放祖先的牌位、食物、香烛等。祭祖的历史悠久，是中国传统文化中重视孝道的体现。",
+      "keywords": ["祭祖", "春节", "孝道", "牌位", "扫墓"],
+      "scenarios": ["家中祭祖", "墓地扫墓", "祭祖的礼仪"],
+      "related": ["spring-festival", "traditional-customs", "filial-piety"]
+    },
+    {
+      "id": "sweeping-dust",
+      "title": "扫尘",
+      "description": "扫尘是指在春节前打扫房屋，去除灰尘和污垢。这一习俗起源于古代，寓意着除旧迎新，将过去一年的晦气和不顺都扫走，迎接新一年的好运。扫尘通常在腊月二十三或二十四进行，被称为'小年'的日子。现在，扫尘仍然是春节前的重要准备工作之一，人们会彻底打扫房屋，为新年的到来做准备。",
+      "keywords": ["扫尘", "春节前", "除旧迎新", "小年", "打扫"],
+      "scenarios": ["春节前扫尘", "扫尘的寓意", "扫尘的时间"],
+      "related": ["spring-festival", "little-year", "preparations"]
+    },
+    {
+      "id": "reunion-dinner",
+      "title": "年夜饭",
+      "description": "年夜饭是指除夕夜的团圆饭，是春节期间最重要的一顿饭。年夜饭通常由家人一起准备，菜品丰富，寓意着团圆和美满。年夜饭的菜品有很多讲究，如鱼（寓意年年有余）、鸡（寓意吉祥如意）、豆腐（寓意福气）等。现在，虽然有些家庭会选择在饭店吃年夜饭，但在家中吃年夜饭仍然是大多数人的选择。",
+      "keywords": ["年夜饭", "除夕夜", "团圆饭", "春节", "美食"],
+      "scenarios": ["做年夜饭", "吃年夜饭", "年夜饭的菜品"],
+      "related": ["spring-festival", "new-years-eve", "traditional-food"]
+    },
+    {
+      "id": "red-packets",
+      "title": "红包",
+      "description": "红包是春节期间的传统习俗，通常由长辈给晚辈，里面装着现金。红包的红色象征着吉祥和好运，寓意着对晚辈的祝福。红包的金额通常根据家庭经济状况和长辈的意愿而定，没有固定的标准。现在，红包的形式也越来越多样化，如电子红包等。",
+      "keywords": ["红包", "压岁钱", "春节", "祝福", "现金"],
+      "scenarios": ["给红包", "收红包", "电子红包"],
+      "related": ["spring-festival", "lucky-money", "traditional-customs"]
+    },
+    {
+      "id": "fu-bag",
+      "title": "福袋",
+      "description": "福袋是春节期间的传统装饰品，通常由红色的布制成，里面装着各种吉祥物品，如糖果、饼干、小玩具等。福袋的寓意是'福气满满'，象征着对新一年的美好祝愿。福袋可以挂在门上、墙上或树上，也可以作为礼物送给亲朋好友。",
+      "keywords": ["福袋", "春节", "福气", "吉祥", "礼物"],
+      "scenarios": ["挂福袋", "送福袋", "福袋的内容"],
+      "related": ["spring-festival", "fu-character", "traditional-decorations"]
+    },
+    {
+      "id": "new-year-paintings",
+      "title": "年画",
+      "description": "年画是春节期间的传统装饰品，通常贴在门上、墙上或窗户上。年画的内容多为吉祥图案，如福字、寿星、财神、花鸟等，寓意着对新一年的美好祝愿。年画的历史悠久，最早可以追溯到宋代。现在，年画的制作工艺更加精湛，不仅有传统的木版年画，还有各种现代风格的年画。",
+      "keywords": ["年画", "春节", "吉祥图案", "传统装饰", "工艺"],
+      "scenarios": ["贴年画", "年画的内容", "年画的种类"],
+      "related": ["spring-festival", "fu-character", "traditional-decorations"]
+    },
+    {
+      "id": "chinese-knot",
+      "title": "中国结",
+      "description": "中国结是中国传统的手工艺品，通常由红色的丝线编织而成，形状各异，寓意着吉祥和好运。中国结的历史悠久，最早可以追溯到旧石器时代。现在，中国结已经成为春节期间的重要装饰品之一，人们可以将中国结挂在门上、墙上或车内，增添节日氛围。",
+      "keywords": ["中国结", "春节", "手工艺品", "吉祥", "装饰"],
+      "scenarios": ["挂中国结", "编中国结", "中国结的寓意"],
+      "related": ["spring-festival", "traditional-crafts", "traditional-decorations"]
+    },
+    {
+      "id": "paper-cutting",
+      "title": "剪纸",
+      "description": "剪纸是中国传统的民间艺术，通常用剪刀或刻刀在纸上剪刻出各种图案。剪纸的内容多为吉祥图案，如福字、花鸟、鱼虫等，寓意着对美好生活的向往。剪纸的历史悠久，最早可以追溯到汉代。现在，剪纸已经成为春节期间的重要装饰品之一，人们可以将剪纸贴在窗户上、墙上或门上。",
+      "keywords": ["剪纸", "春节", "民间艺术", "吉祥图案", "装饰"],
+      "scenarios": ["剪剪纸", "贴剪纸", "剪纸的图案"],
+      "related": ["spring-festival", "window-flowers", "traditional-crafts"]
+    },
+    {
+      "id": "laba-festival",
+      "title": "腊八节",
+      "description": "腊八节是农历十二月初八的传统节日，也是春节前的重要节日之一。腊八节的主要习俗是喝腊八粥，腊八粥由多种食材熬制而成，如大米、小米、红豆、绿豆、花生、枣等，寓意着丰收和吉祥。腊八节的历史悠久，最早可以追溯到宋代。",
+      "keywords": ["腊八节", "腊八粥", "农历十二月初八", "春节前", "传统节日"],
+      "scenarios": ["喝腊八粥", "做腊八粥", "腊八节的起源"],
+      "related": ["spring-festival", "preparations", "traditional-holidays"]
+    },
+    {
+      "id": "little-year",
+      "title": "小年",
+      "description": "小年是春节前的重要节日，通常在农历十二月二十三或二十四，具体日期因地区而异。小年的主要习俗是祭灶王爷，人们会在灶王爷像前供奉糖果、糕点等，祈求灶王爷在向玉皇大帝汇报时多说好话。此外，小年也是扫尘的日子，人们会打扫房屋，为新年的到来做准备。",
+      "keywords": ["小年", "祭灶王爷", "扫尘", "春节前", "传统节日"],
+      "scenarios": ["祭灶王爷", "扫尘", "小年的习俗"],
+      "related": ["spring-festival", "sweeping-dust", "kitchen-god"]
+    },
+    {
+      "id": "new-years-eve",
+      "title": "除夕",
+      "description": "除夕是农历年的最后一天，也是春节前最重要的一天。除夕的主要习俗包括贴春联、贴福字、挂灯笼、吃年夜饭、守岁、放鞭炮等。除夕夜是家人团聚的时刻，人们通过各种活动来辞旧迎新，迎接新一年的到来。",
+      "keywords": ["除夕", "除夕夜", "春节前", "团圆", "辞旧迎新"],
+      "scenarios": ["除夕夜活动", "吃年夜饭", "守岁"],
+      "related": ["spring-festival", "reunion-dinner", "shou-sui"]
+    },
+    {
+      "id": "spring-festival",
+      "title": "春节",
+      "description": "春节是中国最重要的传统节日，通常在农历正月初一，也被称为'过年'。春节的历史悠久，起源于古代的岁首祭祀活动。春节的主要习俗包括贴春联、贴福字、挂灯笼、吃年夜饭、守岁、拜年、放鞭炮等。春节是家人团聚的时刻，也是一年中最热闹的节日。",
+      "keywords": ["春节", "过年", "农历正月初一", "团圆", "传统节日"],
+      "scenarios": ["春节活动", "拜年", "吃年夜饭"],
+      "related": ["new-years-eve", "reunion-dinner", "traditional-customs"]
+    },
+    {
+      "id": "er-yue-er",
+      "title": "二月二",
+      "description": "二月二是农历二月初二的传统节日，也被称为'龙抬头'。这一节日的主要习俗包括理发、吃龙食（如龙须面、龙耳饺子等）、祭龙等。'龙抬头'象征着春天的到来和万物复苏，人们通过各种活动来祈求风调雨顺、五谷丰登。",
+      "keywords": ["二月二", "龙抬头", "理发", "龙食", "传统节日"],
+      "scenarios": ["二月二理发", "吃龙食", "祭龙"],
+      "related": ["traditional-holidays", "spring-activities", "agricultural-customs"]
+    },
+    {
+      "id": "cold-food-festival",
+      "title": "寒食节",
+      "description": "寒食节是农历清明节前一天的传统节日，主要习俗是禁火寒食（即不生火做饭，只吃冷食）。寒食节的起源与春秋时期的介子推有关，传说介子推为了躲避晋文公的封赏，躲进绵山，最终被大火烧死。晋文公为了纪念他，下令在介子推死的这一天禁火寒食。现在，寒食节的习俗已经逐渐与清明节融合。",
+      "keywords": ["寒食节", "禁火寒食", "介子推", "清明节前", "传统节日"],
+      "scenarios": ["寒食节习俗", "介子推的故事", "寒食节与清明节"],
+      "related": ["qingming-festival", "traditional-holidays", "historical-stories"]
+    },
+    {
+      "id": "qingming-festival",
+      "title": "清明节",
+      "description": "清明节是农历二十四节气之一，也是中国传统的祭祖节日，通常在公历4月4日或5日。清明节的主要习俗包括扫墓、祭祖、踏青、放风筝等。清明节是一个缅怀先人的节日，也是一个迎接春天的节日，人们通过各种活动来表达对先人的敬意和对春天的热爱。",
+      "keywords": ["清明节", "扫墓", "祭祖", "踏青", "传统节日"],
+      "scenarios": ["扫墓", "踏青", "放风筝"],
+      "related": ["cold-food-festival", "traditional-holidays", "spring-activities"]
+    },
+    {
+      "id": "dragon-boat-festival",
+      "title": "端午节",
+      "description": "端午节是农历五月初五的传统节日，主要习俗包括吃粽子、赛龙舟、挂艾草、喝雄黄酒等。端午节的起源与战国时期的屈原有关，传说屈原为了救国，投汨罗江自尽，人们通过各种活动来纪念他。现在，端午节已经成为中国的法定节假日之一，人们可以在这一天享受假期，参加各种庆祝活动。",
+      "keywords": ["端午节", "吃粽子", "赛龙舟", "屈原", "传统节日"],
+      "scenarios": ["吃粽子", "赛龙舟", "挂艾草"],
+      "related": ["traditional-holidays", "traditional-food", "historical-stories"]
+    },
+    {
+      "id": "qixi-festival",
+      "title": "七夕节",
+      "description": "七夕节是农历七月初七的传统节日，也被称为'中国情人节'。这一节日的起源与牛郎织女的传说有关，传说牛郎织女每年七月初七通过鹊桥相会。七夕节的主要习俗包括穿针乞巧、拜织女、吃巧果等。现在，七夕节已经成为情侣们表达爱意的节日，类似于西方的情人节。",
+      "keywords": ["七夕节", "牛郎织女", "中国情人节", "穿针乞巧", "传统节日"],
+      "scenarios": ["穿针乞巧", "拜织女", "情侣约会"],
+      "related": ["traditional-holidays", "romantic-customs", "myths-legends"]
+    },
+    {
+      "id": "zhongyuan-festival",
+      "title": "中元节",
+      "description": "中元节是农历七月十五的传统节日，也被称为'鬼节'或'盂兰盆节'。中元节的主要习俗包括祭祖、放河灯、烧纸钱等，人们通过这些活动来缅怀先人、超度亡灵。中元节的历史悠久，起源于佛教和道教的传统。现在，中元节的习俗仍然在一些地区流行。",
+      "keywords": ["中元节", "鬼节", "祭祖", "放河灯", "传统节日"],
+      "scenarios": ["祭祖", "放河灯", "烧纸钱"],
+      "related": ["traditional-holidays", "ancestor-worship", "religious-customs"]
+    },
+    {
+      "id": "mid-autumn-festival",
+      "title": "中秋节",
+      "description": "中秋节是农历八月十五的传统节日，也是中国最重要的传统节日之一。中秋节的主要习俗包括赏月、吃月饼、祭月等。中秋节是一年中月亮最圆的日子，象征着团圆和美满。现在，中秋节已经成为中国的法定节假日之一，人们可以在这一天与家人团聚，共度佳节。",
+      "keywords": ["中秋节", "赏月", "吃月饼", "团圆", "传统节日"],
+      "scenarios": ["赏月", "吃月饼", "祭月"],
+      "related": ["traditional-holidays", "traditional-food", "family-reunion"]
+    },
+    {
+      "id": "double-ninth-festival",
+      "title": "重阳节",
+      "description": "重阳节是农历九月初九的传统节日，也被称为'老人节'。重阳节的主要习俗包括登高、赏菊、插茱萸、喝菊花酒等。'九'是阳数，九月初九是两个阳数相重，象征着吉祥和长寿。现在，重阳节已经成为尊老敬老的节日，人们会在这一天看望长辈，表达对他们的敬意和祝福。",
+      "keywords": ["重阳节", "老人节", "登高", "赏菊", "传统节日"],
+      "scenarios": ["登高", "赏菊", "看望长辈"],
+      "related": ["traditional-holidays", "filial-piety", "autumn-activities"]
+    },
+    {
+      "id": "winter-solstice",
+      "title": "冬至节",
+      "description": "冬至节是农历二十四节气之一，通常在公历12月21日或22日。冬至节的主要习俗包括吃饺子（北方）、吃汤圆（南方）、祭祖等。冬至是一年中白天最短、夜晚最长的一天，象征着阴气最盛、阳气始生。现在，冬至节仍然是中国的重要传统节日之一，人们会在这一天与家人团聚，共度佳节。",
+      "keywords": ["冬至节", "吃饺子", "吃汤圆", "祭祖", "传统节日"],
+      "scenarios": ["吃饺子", "吃汤圆", "祭祖"],
+      "related": ["traditional-holidays", "traditional-food", "seasonal-customs"]
+    },
+    {
+      "id": "laba-garlic",
+      "title": "腊八蒜",
+      "description": "腊八蒜是腊八节的传统食品，通常由大蒜和醋腌制而成。腊八蒜的制作方法简单，将大蒜去皮后放入醋中，密封保存，经过一段时间后，大蒜会变成绿色，口感酸辣可口。腊八蒜的寓意是'精打细算'（因为'蒜'和'算'谐音），象征着对新一年的美好期望。",
+      "keywords": ["腊八蒜", "腊八节", "大蒜", "醋", "传统食品"],
+      "scenarios": ["做腊八蒜", "吃腊八蒜", "腊八蒜的寓意"],
+      "related": ["laba-festival", "traditional-food", "seasonal-foods"]
+    },
+    {
+      "id": "kitchen-god",
+      "title": "灶王爷",
+      "description": "灶王爷是中国传统神话中的神仙，负责管理家庭的炉灶和饮食。灶王爷的主要职责是记录家庭成员的善恶行为，每年腊月二十三或二十四，灶王爷会向玉皇大帝汇报，人们会在这一天祭灶王爷，供奉糖果、糕点等，祈求灶王爷在向玉皇大帝汇报时多说好话。",
+      "keywords": ["灶王爷", "祭灶", "小年", "玉皇大帝", "神话传说"],
+      "scenarios": ["祭灶王爷", "灶王爷的职责", "灶王爷的传说"],
+      "related": ["little-year", "myths-legends", "religious-customs"]
+    },
+    {
+      "id": "door-gods",
+      "title": "门神",
+      "description": "门神是中国传统神话中的神仙，负责守护家庭的门户，驱邪避灾。门神通常贴在门上，形象威武，如秦琼、尉迟恭等。门神的历史悠久，最早可以追溯到汉代。现在，门神仍然是春节期间的重要装饰品之一，人们通过贴门神来祈求平安和好运。",
+      "keywords": ["门神", "贴门神", "驱邪避灾", "春节", "神话传说"],
+      "scenarios": ["贴门神", "门神的形象", "门神的传说"],
+      "related": ["spring-festival", "fu-character", "traditional-decorations"]
+    },
+    {
+      "id": "god-of-wealth",
+      "title": "财神",
+      "description": "财神是中国传统神话中的神仙，负责掌管财富和财运。财神的形象有很多种，如赵公明、关公等。人们通常在春节期间祭祀财神，祈求新的一年里财运亨通、生意兴隆。财神的祭祀活动通常在正月初五进行，这一天也被称为'迎财神'。",
+      "keywords": ["财神", "祭祀财神", "迎财神", "财运", "神话传说"],
+      "scenarios": ["祭祀财神", "迎财神", "财神的形象"],
+      "related": ["spring-festival", "traditional-customs", "myths-legends"]
+    },
+    {
+      "id": "god-of-longevity",
+      "title": "寿星",
+      "description": "寿星是中国传统神话中的神仙，负责掌管寿命和健康。寿星的形象通常是一位白胡子老人，手持拐杖，头大而圆。人们通常在春节期间或老人的生日时祭祀寿星，祈求健康长寿。寿星也是年画和剪纸的常见题材之一。",
+      "keywords": ["寿星", "健康长寿", "祭祀寿星", "神话传说", "传统形象"],
+      "scenarios": ["祭祀寿星", "寿星的形象", "寿星的传说"],
+      "related": ["spring-festival", "traditional-customs", "myths-legends"]
+    },
+    {
+      "id": "queen-mother-of-the-west",
+      "title": "王母娘娘",
+      "description": "王母娘娘是中国传统神话中的女神，居住在昆仑山的瑶池，负责掌管天界的女仙。王母娘娘的主要职责是举办蟠桃会，宴请各路神仙。王母娘娘也是春节期间的重要神灵之一，人们会在春节期间祭祀王母娘娘，祈求平安和好运。",
+      "keywords": ["王母娘娘", "瑶池", "蟠桃会", "女神", "神话传说"],
+      "scenarios": ["祭祀王母娘娘", "蟠桃会的传说", "王母娘娘的职责"],
+      "related": ["myths-legends", "religious-customs", "traditional-festivals"]
+    },
+    {
+      "id": "jade-emperor",
+      "title": "玉皇大帝",
+      "description": "玉皇大帝是中国传统神话中的最高神灵，负责掌管天界、人间和冥界的一切事务。玉皇大帝的主要职责是管理神仙、裁决善恶、掌管命运等。玉皇大帝也是春节期间的重要神灵之一，人们会在春节期间祭祀玉皇大帝，祈求平安和好运。",
+      "keywords": ["玉皇大帝", "最高神灵", "祭祀玉皇大帝", "神话传说", "天界"],
+      "scenarios": ["祭祀玉皇大帝", "玉皇大帝的职责", "玉皇大帝的传说"],
+      "related": ["myths-legends", "religious-customs", "traditional-festivals"]
+    },
+    {
+      "id": "guanyin",
+      "title": "观音菩萨",
+      "description": "观音菩萨是佛教中的重要菩萨，以慈悲为怀，救苦救难著称。观音菩萨的形象有很多种，如千手观音、送子观音等。人们通常在遇到困难或祈求平安时祭祀观音菩萨，希望得到她的保佑。观音菩萨也是中国传统文化中的重要形象之一，深受人们的尊敬和爱戴。",
+      "keywords": ["观音菩萨", "佛教", "慈悲", "救苦救难", "神话传说"],
+      "scenarios": ["祭祀观音菩萨", "观音菩萨的形象", "观音菩萨的传说"],
+      "related": ["myths-legends", "religious-customs", "buddhism"]
+    },
+    {
+      "id": "tathagata",
+      "title": "如来佛祖",
+      "description": "如来佛祖是佛教中的最高佛陀，是佛教的创始人释迦牟尼的尊称。如来佛祖的主要职责是教化众生、普度众生。人们通常在佛教寺庙中祭祀如来佛祖，祈求平安和智慧。如来佛祖也是中国传统文化中的重要形象之一，深受人们的尊敬和爱戴。",
+      "keywords": ["如来佛祖", "佛教", "释迦牟尼", "教化众生", "神话传说"],
+      "scenarios": ["祭祀如来佛祖", "如来佛祖的形象", "如来佛祖的传说"],
+      "related": ["myths-legends", "religious-customs", "buddhism"]
+    },
+    {
+      "id": "maitreya",
+      "title": "弥勒佛",
+      "description": "弥勒佛是佛教中的未来佛，以笑容可掬、大腹便便的形象著称。弥勒佛的寓意是'笑口常开，大肚能容'，象征着乐观和宽容。人们通常在佛教寺庙中祭祀弥勒佛，祈求快乐和吉祥。弥勒佛也是中国传统文化中的重要形象之一，深受人们的喜爱。",
+      "keywords": ["弥勒佛", "佛教", "笑口常开", "大肚能容", "神话传说"],
+      "scenarios": ["祭祀弥勒佛", "弥勒佛的形象", "弥勒佛的寓意"],
+      "related": ["myths-legends", "religious-customs", "buddhism"]
+    },
+    {
+      "id": "guangong",
+      "title": "关公",
+      "description": "关公是中国历史上的名将关羽，也是中国传统文化中的重要神灵，被尊为'武圣'和'财神'。关公的形象威武，手持青龙偃月刀，象征着忠诚、义气和勇气。人们通常在春节期间或开业时祭祀关公，祈求平安、财运和义气。",
+      "keywords": ["关公", "关羽", "武圣", "财神", "历史人物"],
+      "scenarios": ["祭祀关公", "关公的形象", "关公的传说"],
+      "related": ["myths-legends", "historical-figures", "traditional-customs"]
+    },
+    {
+      "id": "zhugeliang",
+      "title": "诸葛亮",
+      "description": "诸葛亮是中国历史上的著名政治家、军事家，也是中国传统文化中的重要人物，被尊为'智圣'。诸葛亮的形象智慧过人，足智多谋，象征着智慧和忠诚。人们通常在遇到困难或需要智慧时祭祀诸葛亮，希望得到他的启发和保佑。",
+      "keywords": ["诸葛亮", "智圣", "智慧", "忠诚", "历史人物"],
+      "scenarios": ["祭祀诸葛亮", "诸葛亮的故事", "诸葛亮的智慧"],
+      "related": ["historical-figures", "historical-stories", "traditional-customs"]
+    },
+    {
+      "id": "traditional-customs",
+      "title": "传统习俗",
+      "description": "传统习俗是中国人民在长期的历史发展过程中形成的各种习惯和风俗，如春节的贴春联、吃年夜饭、守岁等，元宵节的赏灯、猜灯谜、吃元宵等，清明节的扫墓、祭祖、踏青等。传统习俗是中国传统文化的重要组成部分，体现了中国人民的智慧和创造力。",
+      "keywords": ["传统习俗", "传统文化", "春节", "元宵节", "清明节"],
+      "scenarios": ["传统习俗的意义", "传统习俗的传承", "传统习俗的变化"],
+      "related": ["spring-festival", "lantern-festival", "qingming-festival"]
+    },
+    {
+      "id": "traditional-activities",
+      "title": "传统活动",
+      "description": "传统活动是中国人民在传统节日或日常生活中进行的各种活动，如舞龙舞狮、踩高跷、扭秧歌、放风筝等。传统活动是中国传统文化的重要组成部分，体现了中国人民的乐观和活力。现在，传统活动仍然在一些地区流行，成为人们娱乐和健身的重要方式。",
+      "keywords": ["传统活动", "舞龙舞狮", "踩高跷", "扭秧歌", "放风筝"],
+      "scenarios": ["参加传统活动", "观看传统活动", "传统活动的意义"],
+      "related": ["dragon-lion-dance", "traditional-customs", "folk-activities"]
+    },
+    {
+      "id": "traditional-food",
+      "title": "传统美食",
+      "description": "传统美食是中国人民在长期的历史发展过程中形成的各种特色食品，如饺子、年糕、月饼、粽子、汤圆等。传统美食是中国传统文化的重要组成部分，体现了中国人民的饮食智慧和文化底蕴。现在，传统美食仍然是中国人民日常生活中的重要组成部分，也是中国文化的重要符号之一。",
+      "keywords": ["传统美食", "饺子", "年糕", "月饼", "粽子"],
+      "scenarios": ["吃传统美食", "做传统美食", "传统美食的寓意"],
+      "related": ["dumplings", "rice-cake", "mid-autumn-festival"]
+    },
+    {
+      "id": "traditional-decorations",
+      "title": "传统装饰",
+      "description": "传统装饰是中国人民在传统节日或日常生活中使用的各种装饰品，如春联、福字、窗花、花灯、中国结等。传统装饰是中国传统文化的重要组成部分，体现了中国人民的审美情趣和文化底蕴。现在，传统装饰仍然是中国人民节日生活中的重要组成部分，也是中国文化的重要符号之一。",
+      "keywords": ["传统装饰", "春联", "福字", "窗花", "花灯"],
+      "scenarios": ["挂传统装饰", "做传统装饰", "传统装饰的寓意"],
+      "related": ["fu-character", "couplets", "window-flowers"]
+    },
+    {
+      "id": "traditional-crafts",
+      "title": "传统工艺",
+      "description": "传统工艺是中国人民在长期的历史发展过程中形成的各种手工技艺，如剪纸、刺绣、陶瓷、木雕、竹编等。传统工艺是中国传统文化的重要组成部分，体现了中国人民的智慧和创造力。现在，传统工艺仍然在一些地区传承和发展，成为中国文化的重要瑰宝之一。",
+      "keywords": ["传统工艺", "剪纸", "刺绣", "陶瓷", "木雕"],
+      "scenarios": ["制作传统工艺", "欣赏传统工艺", "传统工艺的传承"],
+      "related": ["paper-cutting", "chinese-knot", "traditional-culture"]
+    },
+    {
+      "id": "myths-legends",
+      "title": "神话传说",
+      "description": "神话传说是中国人民在长期的历史发展过程中创造的各种故事，如盘古开天辟地、女娲补天、后羿射日、嫦娥奔月等。神话传说是中国传统文化的重要组成部分，体现了中国人民的想象力和创造力。现在，神话传说仍然是中国人民文化生活中的重要组成部分，也是中国文学和艺术的重要题材之一。",
+      "keywords": ["神话传说", "盘古开天", "女娲补天", "后羿射日", "嫦娥奔月"],
+      "scenarios": ["讲述神话传说", "神话传说的意义", "神话传说的传承"],
+      "related": ["kitchen-god", "door-gods", "god-of-wealth"]
+    },
+    {
+      "id": "traditional-holidays",
+      "title": "传统节日",
+      "description": "传统节日是中国人民在长期的历史发展过程中形成的各种节日，如春节、元宵节、清明节、端午节、中秋节、重阳节等。传统节日是中国传统文化的重要组成部分，体现了中国人民的生活智慧和文化底蕴。现在，传统节日已经成为中国人民日常生活中的重要组成部分，也是中国文化的重要符号之一。",
+      "keywords": ["传统节日", "春节", "元宵节", "清明节", "端午节"],
+      "scenarios": ["庆祝传统节日", "传统节日的意义", "传统节日的传承"],
+      "related": ["spring-festival", "lantern-festival", "qingming-festival"]
+    },
+    {
+      "id": "traditional-culture",
+      "title": "传统文化",
+      "description": "传统文化是中国人民在长期的历史发展过程中形成的各种文化现象，如传统习俗、传统节日、传统工艺、传统艺术、传统思想等。传统文化是中国人民的精神家园，体现了中国人民的智慧和创造力。现在，传统文化仍然是中国人民日常生活中的重要组成部分，也是中国文化的重要瑰宝之一。",
+      "keywords": ["传统文化", "传统习俗", "传统节日", "传统工艺", "传统艺术"],
+      "scenarios": ["学习传统文化", "传承传统文化", "传统文化的创新"],
+      "related": ["traditional-customs", "traditional-holidays", "traditional-crafts"]
+    }
+  ]
+}

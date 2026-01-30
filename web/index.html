@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国年俗知识问答</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 左侧边栏 -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h1><i class="fas fa-dragon"></i> 年俗问答</h1>
+            </div>
+            <div class="sidebar-content">
+                <div class="quick-topics">
+                    <h3><i class="fas fa-star"></i> 快捷入口</h3>
+                    <button class="topic-btn" data-message="为啥要倒贴福？">倒贴福</button>
+                    <button class="topic-btn" data-message="守岁是干啥的？">守岁</button>
+                    <button class="topic-btn" data-message="压岁钱是怎么来的？">压岁钱</button>
+                    <button class="topic-btn" data-message="春节为什么要放鞭炮？">放鞭炮</button>
+                    <button class="topic-btn" data-message="年夜饭吃什么？">年夜饭</button>
+                    <button class="topic-btn" data-message="庙会都有什么？">庙会</button>
+                    <button class="topic-btn" data-message="舞龙舞狮的寓意？">舞龙舞狮</button>
+                    <button class="topic-btn" data-message="元宵节有什么习俗？">元宵节</button>
+                </div>
+                <div class="session-info">
+                    <h3><i class="fas fa-info-circle"></i> 会话信息</h3>
+                    <p>会话ID: <span id="session-id">-</span></p>
+                    <button id="clear-history" class="btn-secondary"><i class="fas fa-trash"></i> 清除历史</button>
+                </div>
+            </div>
+            <div class="sidebar-footer">
+                <p>中国年俗知识问答系统 v1.0</p>
+            </div>
+        </aside>
+
+        <!-- 主聊天区域 -->
+        <main class="chat-area">
+            <header class="chat-header">
+                <h2><i class="fas fa-comments"></i> 智能对话</h2>
+                <div class="header-actions">
+                    <span id="connection-status" class="status disconnected"><i class="fas fa-circle"></i> 未连接</span>
+                </div>
+            </header>
+            
+            <div id="chat-messages" class="chat-messages">
+                <div class="welcome-message">
+                    <div class="bot-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="welcome-text">
+                        <h3>你好！我是年俗知识小助手 🎊</h3>
+                        <p>欢迎使用中国年俗知识问答系统！</p>
+                        <p>你可以问我关于春节、元宵节等传统节日的问题，比如：</p>
+                        <ul>
+                            <li>"为啥要倒贴福？"</li>
+                            <li>"守岁是干啥的？"</li>
+                            <li>"压岁钱是怎么来的？"</li>
+                        </ul>
+                        <p>也可以点击左侧的快捷入口快速提问哦！</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="typing-indicator" id="typing-indicator" style="display: none;">
+                <div class="bot-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="typing-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            
+            <div class="chat-input-area">
+                <div class="input-container">
+                    <textarea id="message-input" placeholder="输入你的问题..." rows="1"></textarea>
+                    <button id="send-btn" class="send-btn">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="input-hint">
+                    按 Enter 发送，Shift+Enter 换行
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/js/chat.js"></script>
+</body>
+</html>
